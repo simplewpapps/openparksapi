@@ -1,0 +1,92 @@
+{
+  "id": "yosemite",
+  "name": "Yosemite National Park",
+  "description": "Yosemite National Park, located in California's Sierra Nevada, is renowned for its stunning granite cliffs, waterfalls, giant sequoias, and diverse ecosystems. Established in 1890, it offers a range of outdoor activities and breathtaking natural beauty.",
+  "locations": [
+    {
+      "id": "el_capitan",
+      "name": "El Capitan",
+      "description": "A vertical rock formation in Yosemite Valley, El Capitan is a favorite among rock climbers and offers stunning views of the surrounding area.",
+      "latitude": 37.7333,
+      "longitude": -119.6683,
+      "type": "rock_formation"
+    },
+    {
+      "id": "half_dome",
+      "name": "Half Dome",
+      "description": "An iconic granite dome with a distinctive shape, Half Dome offers challenging hikes and panoramic views of Yosemite Valley.",
+      "latitude": 37.7450,
+      "longitude": -119.5383,
+      "type": "granite_dome"
+    },
+    {
+      "id": "bridalveil_fall",
+      "name": "Bridalveil Fall",
+      "description": "A 620-foot waterfall located in the southern part of Yosemite Valley, known for its misty spray and picturesque setting.",
+      "latitude": 37.7417,
+      "longitude": -119.6700,
+      "type": "waterfall"
+    },
+    {
+      "id": "mariposa_grove",
+      "name": "Mariposa Grove of Giant Sequoias",
+      "description": "Home to over 500 mature giant sequoias, this grove offers trails through ancient trees and a glimpse into the park's rich natural history.",
+      "latitude": 37.5050,
+      "longitude": -119.6500,
+      "type": "sequoia_grove"
+    },
+    {
+      "id": "tunnel_view",
+      "name": "Tunnel View",
+      "description": "A famous viewpoint offering a panoramic view of Yosemite Valley, including El Capitan, Bridalveil Fall, and Half Dome.",
+      "latitude": 37.7250,
+      "longitude": -119.6670,
+      "type": "viewpoint"
+    }
+  ],
+  "routes": [
+    {
+      "id": "mist_trail",
+      "name": "Mist Trail",
+      "description": "A popular trail leading to Vernal and Nevada Falls, offering misty views and a challenging hike.",
+      "distance_km": 6.4,
+      "difficulty": "medium"
+    },
+    {
+      "id": "half_dome_trail",
+      "name": "Half Dome Trail",
+      "description": "A strenuous trail leading to the summit of Half Dome, requiring a permit and offering breathtaking views.",
+      "distance_km": 22.5,
+      "difficulty": "hard"
+    },
+    {
+      "id": "glacier_point_trail",
+      "name": "Glacier Point Trail",
+      "description": "A scenic trail leading to Glacier Point, offering panoramic views of Yosemite Valley and the High Sierra.",
+      "distance_km": 13.7,
+      "difficulty": "medium"
+    },
+    {
+      "id": "four_mile_trail",
+      "name": "Four Mile Trail",
+      "description": "A historic trail leading from Yosemite Valley to Glacier Point, offering stunning views along the way.",
+      "distance_km": 6.4,
+      "difficulty": "medium"
+    },
+    {
+      "id": "panorama_trail",
+      "name": "Panorama Trail",
+      "description": "A trail offering panoramic views of Yosemite Valley, including views of Half Dome and the High Sierra.",
+      "distance_km": 13.7,
+      "difficulty": "medium"
+    }
+  ],
+  "tips": [
+    "Secure permits in advance for popular hikes like Half Dome.",
+    "Start early to avoid crowds and enjoy cooler temperatures.",
+    "Carry plenty of water and snacks, especially on longer hikes.",
+    "Be aware of seasonal conditions and trail closures.",
+    "Practice Leave No Trace principles to preserve the park's beauty."
+  ],
+  "attribution": "Data provided by the National Park Service (https://www.nps.gov/yose/index.htm)."
+}
