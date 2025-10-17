@@ -1,0 +1,16 @@
+{
+  "parks": [
+    {
+      "id": "yellowstone",
+      "name": "Yellowstone National Park",
+      "state": "Wyoming, Montana, Idaho",
+      "short_description": "The first national park in the USA, famous for geysers, hot springs, and wildlife."
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite National Park",
+      "state": "California",
+      "short_description": "Renowned for its granite cliffs, waterfalls, giant sequoias, and panoramic views."
+    }
+  ]
+}
