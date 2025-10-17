@@ -1,0 +1,14 @@
+{
+  "id" : "yellowstone",
+  "name" : "Yellowstone National Park",
+  "description" : "Yellowstone, located mostly in Wyoming, is the first national park in the USA, famous for its geysers, hot springs, and abundant wildlife.",
+  "locations" : [
+    {
+      "id" : "old_faithful",
+      "name" : "Old Faithful",
+      "description" : "The most famous geyser in Yellowstone. Shoots of water are happening approximately every 90 minutes.",
+      "latitude" : 44.4280,
+      "longitude" : -110.5885,
+      "type" : "geyser",
+    }]
+}
