@@ -1,14 +1,86 @@
 {
-  "id" : "yellowstone",
-  "name" : "Yellowstone National Park",
-  "description" : "Yellowstone, located mostly in Wyoming, is the first national park in the USA, famous for its geysers, hot springs, and abundant wildlife.",
-  "locations" : [
+  "id": "yellowstone",
+  "name": "Yellowstone National Park",
+  "description": "Yellowstone is the first national park in the United States, established in 1872. It spans Wyoming, Montana, and Idaho, and is famous for its geothermal features, diverse wildlife, and stunning landscapes.",
+  "locations": [
     {
-      "id" : "old_faithful",
-      "name" : "Old Faithful",
-      "description" : "The most famous geyser in Yellowstone. Shoots of water are happening approximately every 90 minutes.",
-      "latitude" : 44.4280,
-      "longitude" : -110.5885,
-      "type" : "geyser",
-    }]
+      "id": "old_faithful",
+      "name": "Old Faithful",
+      "description": "One of the most famous geysers in the world, erupting water up to 56 meters. Eruptions occur approximately every 91 minutes.",
+      "latitude": 44.4605,
+      "longitude": -110.8281,
+      "type": "geyser",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/old_faithful.jpg"
+    },
+    {
+      "id": "grand_prismatic_spring",
+      "name": "Grand Prismatic Spring",
+      "description": "The largest hot spring in the United States and the third largest in the world. Known for its vibrant colors created by thermophilic bacteria.",
+      "latitude": 44.5250,
+      "longitude": -110.8382,
+      "type": "hot_spring",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/grand_prismatic_spring.jpg"
+    },
+    {
+      "id": "yellowstone_lake",
+      "name": "Yellowstone Lake",
+      "description": "The largest high-altitude lake in North America, located at 2,357 meters above sea level.",
+      "latitude": 44.4622,
+      "longitude": -110.3726,
+      "type": "lake",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/yellowstone_lake.jpg"
+    },
+    {
+      "id": "norris_geyser_basin",
+      "name": "Norris Geyser Basin",
+      "description": "The hottest and most geothermally active area in the park, home to the world's tallest active geyser — Steamboat Geyser.",
+      "latitude": 44.7356,
+      "longitude": -110.7014,
+      "type": "geyser_basin",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/norris_geyser_basin.jpg"
+    },
+    {
+      "id": "grand_canyon_of_the_yellowstone",
+      "name": "Grand Canyon of the Yellowstone",
+      "description": "A majestic 32-kilometer-long canyon with the Lower Falls and Upper Falls, formed by volcanic activity.",
+      "latitude": 44.7147,
+      "longitude": -110.4916,
+      "type": "canyon",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/grand_canyon_of_the_yellowstone.jpg"
+    }
+  ],
+  "routes": [
+    {
+      "id": "upper_geyser_basin_loop",
+      "name": "Upper Geyser Basin Loop",
+      "description": "A popular walking trail passing by numerous geysers, including Old Faithful and Morning Glory Pool.",
+      "distance_km": 5.6,
+      "difficulty": "medium",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/upper_geyser_basin_loop.jpg"
+    },
+    {
+      "id": "lone_star_geyser_trail",
+      "name": "Lone Star Geyser Trail",
+      "description": "An easy 6.4 km trail leading to the Lone Star Geyser, which erupts up to 15 meters high.",
+      "distance_km": 6.4,
+      "difficulty": "easy",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/lone_star_geyser_trail.jpg"
+    },
+    {
+      "id": "mount_washburn_trail",
+      "name": "Mount Washburn Trail",
+      "description": "A popular trail to the summit of Mount Washburn, offering panoramic views of the park.",
+      "distance_km": 13.6,
+      "difficulty": "hard",
+      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/mount_washburn_trail.jpg"
+    }
+  ],
+  "tips": [
+    "Visit early in the morning or late in the evening to avoid crowds.",
+    "Keep a safe distance from wildlife.",
+    "Dress in layers as the weather can change quickly.",
+    "Use sun protection and wear a hat.",
+    "Do not feed the animals."
+  ],
+  "attribution": "Data provided by the National Park Service (https://www.nps.gov/yell/index.htm)."
 }
