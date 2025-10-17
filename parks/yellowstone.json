@@ -9,8 +9,7 @@
       "description": "One of the most famous geysers in the world, erupting water up to 56 meters. Eruptions occur approximately every 91 minutes.",
       "latitude": 44.4605,
       "longitude": -110.8281,
-      "type": "geyser",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/old_faithful.jpg"
+      "type": "geyser"
     },
     {
       "id": "grand_prismatic_spring",
@@ -18,8 +17,7 @@
       "description": "The largest hot spring in the United States and the third largest in the world. Known for its vibrant colors created by thermophilic bacteria.",
       "latitude": 44.5250,
       "longitude": -110.8382,
-      "type": "hot_spring",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/grand_prismatic_spring.jpg"
+      "type": "hot_spring"
     },
     {
       "id": "yellowstone_lake",
@@ -27,8 +25,7 @@
       "description": "The largest high-altitude lake in North America, located at 2,357 meters above sea level.",
       "latitude": 44.4622,
       "longitude": -110.3726,
-      "type": "lake",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/yellowstone_lake.jpg"
+      "type": "lake"
     },
     {
       "id": "norris_geyser_basin",
@@ -36,8 +33,7 @@
       "description": "The hottest and most geothermally active area in the park, home to the world's tallest active geyser — Steamboat Geyser.",
       "latitude": 44.7356,
       "longitude": -110.7014,
-      "type": "geyser_basin",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/norris_geyser_basin.jpg"
+      "type": "geyser_basin"
     },
     {
       "id": "grand_canyon_of_the_yellowstone",
@@ -45,8 +41,39 @@
       "description": "A majestic 32-kilometer-long canyon with the Lower Falls and Upper Falls, formed by volcanic activity.",
       "latitude": 44.7147,
       "longitude": -110.4916,
-      "type": "canyon",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/grand_canyon_of_the_yellowstone.jpg"
+      "type": "canyon"
+    },
+    {
+      "id": "mammoth_hot_springs",
+      "name": "Mammoth Hot Springs",
+      "description": "A complex of hot springs on a hill of travertine terraces, known for its colorful formations.",
+      "latitude": 44.9760,
+      "longitude": -110.7013,
+      "type": "hot_spring"
+    },
+    {
+      "id": "yellowstone_river",
+      "name": "Yellowstone River",
+      "description": "The longest undammed river in the contiguous United States, flowing through the park and creating scenic views.",
+      "latitude": 44.7333,
+      "longitude": -110.4567,
+      "type": "river"
+    },
+    {
+      "id": "hayden_valley",
+      "name": "Hayden Valley",
+      "description": "Famous for its wildlife sightings, including bison, elk, and bears, particularly during early morning and evening.",
+      "latitude": 44.6197,
+      "longitude": -110.4960,
+      "type": "valley"
+    },
+    {
+      "id": "tower_falls",
+      "name": "Tower Fall",
+      "description": "A 41-meter waterfall located near the Tower-Roosevelt area of the park, surrounded by unique rock formations.",
+      "latitude": 44.8900,
+      "longitude": -110.3885,
+      "type": "waterfall"
     }
   ],
   "routes": [
@@ -55,24 +82,35 @@
       "name": "Upper Geyser Basin Loop",
       "description": "A popular walking trail passing by numerous geysers, including Old Faithful and Morning Glory Pool.",
       "distance_km": 5.6,
-      "difficulty": "medium",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/upper_geyser_basin_loop.jpg"
+      "difficulty": "medium"
     },
     {
       "id": "lone_star_geyser_trail",
       "name": "Lone Star Geyser Trail",
       "description": "An easy 6.4 km trail leading to the Lone Star Geyser, which erupts up to 15 meters high.",
       "distance_km": 6.4,
-      "difficulty": "easy",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/lone_star_geyser_trail.jpg"
+      "difficulty": "easy"
     },
     {
       "id": "mount_washburn_trail",
       "name": "Mount Washburn Trail",
       "description": "A popular trail to the summit of Mount Washburn, offering panoramic views of the park.",
       "distance_km": 13.6,
-      "difficulty": "hard",
-      "image": "https://raw.githubusercontent.com/USERNAME/OpenParksAPI/main/images/yellowstone/mount_washburn_trail.jpg"
+      "difficulty": "hard"
+    },
+    {
+      "id": "yellowstone_lake_trail",
+      "name": "Yellowstone Lake Trail",
+      "description": "Scenic trail along Yellowstone Lake with views of the water and surrounding mountains.",
+      "distance_km": 5.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "grand_canyon_trail",
+      "name": "Grand Canyon of the Yellowstone Trail",
+      "description": "Trail along the canyon with multiple viewpoints of Upper and Lower Falls.",
+      "distance_km": 8.5,
+      "difficulty": "medium"
     }
   ],
   "tips": [
@@ -80,7 +118,11 @@
     "Keep a safe distance from wildlife.",
     "Dress in layers as the weather can change quickly.",
     "Use sun protection and wear a hat.",
-    "Do not feed the animals."
+    "Do not feed the animals.",
+    "Bring plenty of water and snacks for longer hikes.",
+    "Check trail conditions before heading out.",
+    "Use maps or GPS to navigate remote areas.",
+    "Take your trash with you — Leave No Trace principles."
   ],
   "attribution": "Data provided by the National Park Service (https://www.nps.gov/yell/index.htm)."
 }
