@@ -18,7 +18,7 @@ Some example endpoints:
 
 https://simplewpapps.github.io/openparksapi/parks/yellowstone.json for Yellowstone national park
 https://simplewpapps.github.io/openparksapi/parks/yosemite.json for Yosemite national park
-https://simplewpapps.github.io/openparksapi/parks/list.json for a list of all available national parks with their short descriptions and states
+https://simplewpapps.github.io/openparksapi/parks/list/list.json for a list of all available national parks with their short descriptions and states
 
 # Repository (API) structure
 /parks/ -> individual park data (one JSON per park)
