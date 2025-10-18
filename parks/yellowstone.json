@@ -5,31 +5,14 @@
   "established": "1872-03-01",
   "designation": "National Park",
   "area_km2": 8983,
-  "highest_point_m": 3462,
-  "lowest_point_m": 1610,
-  "visitation_2024": 4531254,
-  "description": "Yellowstone National Park, established in 1872 as the first national park in the United States and widely considered the first in the world, is known for its extraordinary geothermal features, diverse wildlife, and stunning landscapes. The park encompasses lakes, canyons, rivers, and mountain ranges, and sits atop one of the largest active volcanic systems on Earth — the Yellowstone Caldera.",
-  "geology": {
-    "summary": "The park lies over the Yellowstone Caldera, a supervolcano formed during a massive eruption approximately 640,000 years ago. Geothermal activity continues today, with over 10,000 hydrothermal features, including geysers, hot springs, mudpots, and fumaroles.",
-    "notable_features": [
-      "Yellowstone Caldera",
-      "Old Faithful Geyser",
-      "Grand Prismatic Spring",
-      "Mammoth Hot Springs Terraces"
-    ]
-  },
-  "wildlife": {
-    "description": "Yellowstone hosts one of the largest nearly intact temperate ecosystems in the world, home to over 60 species of mammals and 300 species of birds.",
-    "mammals": ["Grizzly Bear", "American Bison", "Gray Wolf", "Elk", "Moose", "Mountain Lion", "Pronghorn"],
-    "birds": ["Bald Eagle", "Trumpeter Swan", "Osprey", "Sandhill Crane"],
-    "fish": ["Cutthroat Trout", "Arctic Grayling"],
-    "reptiles_amphibians": ["Western Terrestrial Garter Snake", "Boreal Chorus Frog"]
-  },
+  "highest_point_m": 3472,
+  "lowest_point_m": 1500,
+  "description": "Yellowstone National Park, established in 1872, is the first national park in the United States and widely considered the first in the world. The park is known for its geothermal features, wildlife, and diverse landscapes, including mountains, rivers, lakes, and forests.",
   "locations": [
     {
       "id": "old_faithful",
       "name": "Old Faithful",
-      "description": "World-famous cone geyser erupting every 90 minutes on average, with eruptions reaching up to 56 meters.",
+      "description": "One of the most famous geysers in the world, erupting water up to 56 meters every 91 minutes.",
       "latitude": 44.4605,
       "longitude": -110.8281,
       "type": "geyser"
@@ -37,7 +20,7 @@
     {
       "id": "grand_prismatic_spring",
       "name": "Grand Prismatic Spring",
-      "description": "The largest hot spring in the United States, known for its vivid colors caused by thermophilic bacteria.",
+      "description": "The largest hot spring in the United States, known for vibrant colors caused by thermophilic bacteria.",
       "latitude": 44.5250,
       "longitude": -110.8382,
       "type": "hot_spring"
@@ -45,70 +28,147 @@
     {
       "id": "yellowstone_lake",
       "name": "Yellowstone Lake",
-      "description": "One of the largest high-altitude lakes in North America, at an elevation of 2,357 meters, with geothermal features along its floor.",
+      "description": "Largest high-altitude lake in North America, situated at 2,357 meters above sea level.",
       "latitude": 44.4622,
       "longitude": -110.3726,
       "type": "lake"
     },
     {
+      "id": "norris_geyser_basin",
+      "name": "Norris Geyser Basin",
+      "description": "The hottest and most geothermally active area, home to Steamboat Geyser, the world's tallest active geyser.",
+      "latitude": 44.7356,
+      "longitude": -110.7014,
+      "type": "geyser_basin"
+    },
+    {
+      "id": "grand_canyon_yellowstone",
+      "name": "Grand Canyon of the Yellowstone",
+      "description": "A majestic 32 km canyon with Upper and Lower Falls, formed by volcanic activity.",
+      "latitude": 44.7147,
+      "longitude": -110.4916,
+      "type": "canyon"
+    },
+    {
       "id": "mammoth_hot_springs",
       "name": "Mammoth Hot Springs",
-      "description": "Travertine terraces formed by hot water from the Norris–Mammoth Corridor rising through limestone.",
+      "description": "Terraced hot springs known for their colorful travertine formations.",
       "latitude": 44.9760,
       "longitude": -110.7013,
       "type": "hot_spring"
     },
     {
-      "id": "grand_canyon_yellowstone",
-      "name": "Grand Canyon of the Yellowstone",
-      "description": "A 32-kilometer canyon carved by the Yellowstone River, featuring the Lower and Upper Falls, with striking yellow, red, and orange rock walls.",
-      "latitude": 44.7168,
-      "longitude": -110.4965,
-      "type": "canyon"
+      "id": "hayden_valley",
+      "name": "Hayden Valley",
+      "description": "Famous for wildlife sightings, including bison, elk, and bears.",
+      "latitude": 44.6197,
+      "longitude": -110.4960,
+      "type": "valley"
+    },
+    {
+      "id": "tower_falls",
+      "name": "Tower Fall",
+      "description": "A 41-meter waterfall near the Tower-Roosevelt area with unique rock formations.",
+      "latitude": 44.8900,
+      "longitude": -110.3885,
+      "type": "waterfall"
     }
   ],
-  "visitor_centers": [
-    { "name": "Old Faithful Visitor Education Center", "location": "Upper Geyser Basin" },
-    { "name": "Canyon Visitor Education Center", "location": "Canyon Village" },
-    { "name": "Fishing Bridge Visitor Center", "location": "Yellowstone Lake" },
-    { "name": "Grant Visitor Center", "location": "Grant Village" },
-    { "name": "West Yellowstone Visitor Information Center", "location": "West Entrance" }
-  ],
-  "routes": [
+  "trails": [
     {
       "id": "upper_geyser_basin_loop",
       "name": "Upper Geyser Basin Loop",
-      "description": "Boardwalk trail connecting several geysers including Old Faithful, Castle, and Grand Geyser.",
+      "description": "Walking trail passing by numerous geysers including Old Faithful and Morning Glory Pool.",
       "distance_km": 5.6,
       "difficulty": "medium"
     },
     {
+      "id": "lone_star_geyser_trail",
+      "name": "Lone Star Geyser Trail",
+      "description": "Easy 6.4 km trail leading to Lone Star Geyser.",
+      "distance_km": 6.4,
+      "difficulty": "easy"
+    },
+    {
       "id": "mount_washburn_trail",
       "name": "Mount Washburn Trail",
-      "description": "A scenic and moderately strenuous trail leading to panoramic views from the summit of Mount Washburn.",
+      "description": "Trail to the summit of Mount Washburn with panoramic views.",
       "distance_km": 13.6,
       "difficulty": "hard"
     },
     {
-      "id": "uncle_toms_trail",
-      "name": "Uncle Tom’s Trail",
-      "description": "Steep descent of 328 steps leading to an overlook of the Lower Falls in the Grand Canyon of the Yellowstone.",
-      "distance_km": 1.2,
-      "difficulty": "hard"
+      "id": "yellowstone_lake_trail",
+      "name": "Yellowstone Lake Trail",
+      "description": "Scenic trail along Yellowstone Lake with views of the water and mountains.",
+      "distance_km": 5.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": "grand_canyon_trail",
+      "name": "Grand Canyon of the Yellowstone Trail",
+      "description": "Trail along the canyon with multiple viewpoints of Upper and Lower Falls.",
+      "distance_km": 8.5,
+      "difficulty": "medium"
     }
   ],
-  "infrastructure": {
-    "campgrounds": 12,
-    "lodges": 9,
-    "total_trails_km": 1500,
-    "main_roads_km": 480
-  },
+  "visitor_centers": [
+    {
+      "id": "old_faithful_visitor_center",
+      "name": "Old Faithful Visitor Center",
+      "description": "Provides information, exhibits, and ranger programs about the park.",
+      "location": "Old Faithful"
+    },
+    {
+      "id": "mammoth_hot_springs_center",
+      "name": "Mammoth Hot Springs Visitor Center",
+      "description": "Historic center with exhibits on thermal features and wildlife.",
+      "location": "Mammoth Hot Springs"
+    },
+    {
+      "id": "canyon_visitor_center",
+      "name": "Canyon Visitor Education Center",
+      "description": "Educational exhibits and information on the Grand Canyon of Yellowstone.",
+      "location": "Grand Canyon"
+    }
+  ],
+  "campgrounds": [
+    {
+      "id": "mammoth",
+      "name": "Mammoth Campground",
+      "description": "Located near Mammoth Hot Springs, open seasonally.",
+      "location": "Mammoth Hot Springs"
+    },
+    {
+      "id": "canyon",
+      "name": "Canyon Campground",
+      "description": "Near Grand Canyon, seasonal camping available.",
+      "location": "Grand Canyon"
+    },
+    {
+      "id": "bridge_bay",
+      "name": "Bridge Bay Campground",
+      "description": "Campground near Yellowstone Lake with full facilities.",
+      "location": "Yellowstone Lake"
+    },
+    {
+      "id": "grant_village",
+      "name": "Grant Village Campground",
+      "description": "Campground on the southern shore of Yellowstone Lake.",
+      "location": "Grant Village"
+    },
+    {
+      "id": "fishing_bridge",
+      "name": "Fishing Bridge RV Park",
+      "description": "RV-only campground near Yellowstone Lake, seasonal.",
+      "location": "Yellowstone Lake"
+    }
+  ],
   "safety_tips": [
-    "Stay on designated boardwalks and trails in geothermal areas.",
-    "Keep at least 23 meters (75 feet) from all wildlife, and 91 meters (300 feet) from bears and wolves.",
-    "Do not approach or feed animals.",
-    "Be prepared for rapidly changing weather conditions.",
-    "Carry bear spray in backcountry areas."
+    "Maintain safe distance from wildlife.",
+    "Stay on marked trails.",
+    "Carry water and snacks for hikes.",
+    "Dress in layers as weather can change quickly.",
+    "Follow Leave No Trace principles."
   ],
   "source": "National Park Service (https://www.nps.gov/yell/index.htm)",
   "last_updated": "2025-10-18"
