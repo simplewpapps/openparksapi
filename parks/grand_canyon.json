@@ -192,5 +192,14 @@
     "Inform others of your hiking plans before descending below the rim."
   ],
   "source": "National Park Service (https://www.nps.gov/grca/index.htm)",
-  "last_updated": "2025-10-18"
+  "images" : [
+    {
+      "name" : "grand_canyon1.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon1.jpg"
+    },
+    {
+      "name" : "grand_canyon2.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon2.jpg"
+    }
+  ]
 }
