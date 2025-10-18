@@ -7,15 +7,24 @@ Data is partially based on information provided by the **U.S. National Park Serv
 # API Docs
 
 You can access the data directly through **GitHub Pages**:
+
+
+
 **https://simplewpapps.github.io/openparksapi/**
 
 Some example endpoints:
+
+
+
 https://simplewpapps.github.io/openparksapi/parks/yellowstone.json for Yellowstone national park
 https://simplewpapps.github.io/openparksapi/parks/yosemite.json for Yosemite national park
 https://simplewpapps.github.io/openparksapi/parks/list.json for a list of all available national parks with their short descriptions and states
 
 # Repository (API) structure
 /parks/ -> individual park data (one JSON per park)
+
+
+
 some others coming soon!
 
 # License
@@ -24,9 +33,15 @@ All data is provided under MIT License, you may use the API - just include the a
 
 # Purpose
 This project was created to make USA National Park data easily available for:
+
+
+
 - Mobile and desktop apps
 - Educational or travel projects
 - Open-data experiments
+
+
+
 It is completely free and open-source, you can read every JSON in the main branch.
 
 # Author
