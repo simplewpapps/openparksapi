@@ -170,6 +170,15 @@
     "Dress in layers as weather can change quickly.",
     "Follow Leave No Trace principles."
   ],
-  "source": "National Park Service (https://www.nps.gov/yell/index.htm)",
-  "last_updated": "2025-10-18"
+  "source": "National Park Service (https://www.nps.gov/yell/index.htm)"
+  "images" : [
+    {
+      "name" : "yellowstone1.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone1.jpg"
+    },
+    {
+      "name" : "yellowstone2.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone2.jpg"
+    }
+  ]
 }
