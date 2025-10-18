@@ -74,6 +74,38 @@
       "latitude": 36.0490,
       "longitude": -112.1395,
       "type": "settlement"
+    },
+    {
+      "id": "hermits_rest",
+      "name": "Hermit's Rest",
+      "description": "A historic rest house located at the end of the Hermit Road, offering panoramic views of the canyon.",
+      "latitude": 36.0508,
+      "longitude": -112.1380,
+      "type": "viewpoint"
+    },
+    {
+      "id": "grandview_point",
+      "name": "Grandview Point",
+      "description": "A viewpoint offering expansive views of the canyon, accessible via the Grandview Trail.",
+      "latitude": 36.0530,
+      "longitude": -112.1070,
+      "type": "viewpoint"
+    },
+    {
+      "id": "yaki_point",
+      "name": "Yaki Point",
+      "description": "A viewpoint offering panoramic views of the canyon, accessible via the South Kaibab Trail.",
+      "latitude": 36.0550,
+      "longitude": -112.1180,
+      "type": "viewpoint"
+    },
+    {
+      "id": "tusayan_ruins",
+      "name": "Tusayan Ruins and Museum",
+      "description": "An archaeological site preserving the ruins of an ancient Puebloan village.",
+      "latitude": 36.1060,
+      "longitude": -112.1100,
+      "type": "historic_site"
     }
   ],
   "visitor_centers": [
@@ -90,18 +122,60 @@
       "difficulty": "hard"
     },
     {
-      "id": "rim_trail",
+      "id": "south_kaibab_trail_route",
+      "name": "South Kaibab Trail",
+      "description": "A scenic trail offering expansive views, descending 14.5 km from the South Rim to the Colorado River.",
+      "distance_km": 14.5,
+      "difficulty": "hard"
+    },
+    {
+      "id": "north_kaibab_trail_route",
+      "name": "North Kaibab Trail",
+      "description": "The only maintained trail into the canyon from the North Rim, connecting to Phantom Ranch and Bright Angel Trail.",
+      "distance_km": 23.5,
+      "difficulty": "hard"
+    },
+    {
+      "id": "rim_trail_route",
       "name": "Rim Trail",
       "description": "A mostly paved trail following the South Rim from the Village to Hermit’s Rest, offering numerous viewpoints.",
       "distance_km": 20.9,
       "difficulty": "easy"
     },
     {
-      "id": "north_kaibab_trail",
-      "name": "North Kaibab Trail",
-      "description": "The only maintained trail into the canyon from the North Rim, connecting to Phantom Ranch and Bright Angel Trail.",
-      "distance_km": 23.5,
+      "id": "tonto_trail_route",
+      "name": "Tonto Trail",
+      "description": "A trail crossing the Tonto Platform approximately 3900 ft (1200 m) below the South Rim, intersecting both the Bright Angel and South Kaibab Trails.",
+      "distance_km": 93.0,
+      "difficulty": "medium"
+    },
+    {
+      "id": "grandview_trail_route",
+      "name": "Grandview Trail",
+      "description": "A steep trail offering dramatic views of the canyon, descending from Grandview Point.",
+      "distance_km": 2.4,
       "difficulty": "hard"
+    },
+    {
+      "id": "hermits_rest_trail_route",
+      "name": "Hermit's Rest Trail",
+      "description": "A trail leading from Hermit's Rest to the end of Hermit Road, offering scenic views along the way.",
+      "distance_km": 2.4,
+      "difficulty": "easy"
+    },
+    {
+      "id": "yaki_point_trail_route",
+      "name": "Yaki Point Trail",
+      "description": "A trail leading from Yaki Point to the end of the South Kaibab Trail, offering panoramic views.",
+      "distance_km": 3.2,
+      "difficulty": "medium"
+    },
+    {
+      "id": "trail_of_time_route",
+      "name": "Trail of Time",
+      "description": "A relatively flat 4.56 km (2.83 mile) long paved walk designed as a geologic timeline.",
+      "distance_km": 4.56,
+      "difficulty": "easy"
     }
   ],
   "infrastructure": {
