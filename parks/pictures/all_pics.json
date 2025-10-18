@@ -1,1 +1,28 @@
-
+{
+  "images" : [
+    {
+      "name" : "yellowstone1.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone1.jpg"
+    },
+    {
+      "name" : "yellowstone2.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone2.jpg"
+    },
+    {
+      "name" : "yosemite1.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yosemite1.jpg"
+    },
+    {
+      "name" : "yosemite2.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/yosemite2.jpg"
+    },
+    {
+      "name" : "grand_canyon1.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon1.jpg"
+    },
+    {
+      "name" : "grand_canyon2.jpg",
+      "path" : "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon2.jpg"
+    }
+  ]
+}
