@@ -5,48 +5,21 @@
       "name": "Yellowstone National Park",
       "state": "Wyoming, Montana, Idaho",
       "short_description": "The first national park in the USA, famous for geysers, hot springs, and wildlife.",
-      "images": [
-        {
-          "name": "yellowstone1.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone1.jpg"
-        },
-        {
-          "name": "yellowstone2.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone2.jpg"
-        }
-      ]
+      "image": "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone1.jpg"
     },
     {
       "id": "yosemite",
       "name": "Yosemite National Park",
       "state": "California",
       "short_description": "Renowned for its granite cliffs, waterfalls, giant sequoias, and panoramic views.",
-      "images": [
-        {
-          "name": "yosemite1.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/yosemite1.jpg"
-        },
-        {
-          "name": "yosemite2.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/yosemite2.jpg"
-        }
-      ]
+      "image": "https://simplewpapps.github.io/openparksapi/parks/pictures/yosemite1.jpg"
     },
     {
       "id": "grand_canyon",
       "name": "Grand Canyon National Park",
       "state": "Arizona",
       "short_description": "One of the world’s most iconic natural wonders, carved by the Colorado River through colorful layers of rock.",
-      "images": [
-        {
-          "name": "grand_canyon1.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon1.jpg"
-        },
-        {
-          "name": "grand_canyon2.jpg",
-          "path": "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon2.jpg"
-        }
-      ]
+      "image": "https://simplewpapps.github.io/openparksapi/parks/pictures/grand_canyon1.jpg"
     }
   ]
 }
