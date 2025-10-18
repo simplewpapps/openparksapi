@@ -11,6 +11,12 @@
       "name": "Yosemite National Park",
       "state": "California",
       "short_description": "Renowned for its granite cliffs, waterfalls, giant sequoias, and panoramic views."
+    },
+    {
+      "id": "grand_canyon",
+      "name": "Grand Canyon National Park",
+      "state": "Arizona",
+      "short_description": "One of the world’s most iconic natural wonders, carved by the Colorado River through colorful layers of rock."
     }
   ]
 }
