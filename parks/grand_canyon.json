@@ -113,7 +113,7 @@
     { "name": "North Rim Visitor Center", "location": "North Rim" },
     { "name": "Desert View Visitor Center", "location": "Desert View" }
   ],
-  "routes": [
+  "trails": [
     {
       "id": "bright_angel_trail_route",
       "name": "Bright Angel Trail",
