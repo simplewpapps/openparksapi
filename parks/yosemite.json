@@ -1,92 +1,114 @@
 {
   "id": "yosemite",
   "name": "Yosemite National Park",
-  "description": "Yosemite National Park is a national park of the United States in California. It is bordered on the southeast by the Sierra National Forest and on the northwest by Stanislaus National Forest. The park is managed by the National Park Service and covers 1,187 sq mi (3,070 km2) in four counties – centered in Tuolumne and Mariposa, extending north and east to Mono and south to Madera. Designated a World Heritage Site in 1984, Yosemite is internationally recognized for its granite cliffs, waterfalls, clear streams, groves of giant sequoia, lakes, mountains, meadows, glaciers, and biological diversity. Almost 95 percent of the park is designated wilderness. Yosemite is one of the largest and least fragmented habitat blocks in the Sierra Nevada mountain range.",
+  "state": ["California"],
+  "established": "1890-10-01",
+  "designation": "National Park",
+  "area_km2": 3081,
+  "highest_point_m": 3977,
+  "lowest_point_m": 648,
+  "visitation_2024": 3872410,
+  "description": "Yosemite National Park, located in California’s Sierra Nevada mountains, is famed for its iconic granite cliffs, towering waterfalls, giant sequoias, and diverse ecosystems. Designated as a World Heritage Site in 1984, Yosemite stands as a symbol of the American conservation movement, largely inspired by the work of John Muir.",
+  "geology": {
+    "summary": "Yosemite’s landscape was shaped primarily by glacial erosion, carving U-shaped valleys, domes, and towering cliffs. The most famous features, such as Half Dome and El Capitan, are composed of granite formed over 100 million years ago.",
+    "notable_features": [
+      "Half Dome",
+      "El Capitan",
+      "Yosemite Valley",
+      "Glacier Point",
+      "Tuolumne Meadows"
+    ]
+  },
+  "wildlife": {
+    "description": "Yosemite supports over 400 species of vertebrates, including mammals, birds, reptiles, amphibians, and fish. Its diverse habitats range from oak woodlands to alpine tundra.",
+    "mammals": ["Black Bear", "Mule Deer", "Bobcat", "Mountain Lion", "Sierra Nevada Red Fox"],
+    "birds": ["Peregrine Falcon", "Steller’s Jay", "Great Gray Owl", "American Dipper"],
+    "fish": ["Rainbow Trout", "California Roach"],
+    "reptiles_amphibians": ["Western Fence Lizard", "Sierra Newt"]
+  },
   "locations": [
     {
       "id": "el_capitan",
       "name": "El Capitan",
-      "description": "A vertical rock formation in Yosemite Valley, El Capitan is a favorite among rock climbers and offers stunning views of the surrounding area.",
-      "latitude": 37.7333,
-      "longitude": -119.6683,
-      "type": "rock_formation"
+      "description": "A 900-meter granite monolith popular among climbers worldwide, dominating the Yosemite Valley skyline.",
+      "latitude": 37.7336,
+      "longitude": -119.6376,
+      "type": "granite_cliff"
     },
     {
       "id": "half_dome",
       "name": "Half Dome",
-      "description": "An iconic granite dome with a distinctive shape, Half Dome offers challenging hikes and panoramic views of Yosemite Valley.",
-      "latitude": 37.7450,
-      "longitude": -119.5383,
+      "description": "An iconic granite dome rising 1,444 meters above the valley floor, accessible via a strenuous trail with cable-assisted ascent.",
+      "latitude": 37.7459,
+      "longitude": -119.5332,
       "type": "granite_dome"
     },
     {
-      "id": "bridalveil_fall",
-      "name": "Bridalveil Fall",
-      "description": "A 620-foot waterfall located in the southern part of Yosemite Valley, known for its misty spray and picturesque setting.",
-      "latitude": 37.7417,
-      "longitude": -119.6700,
+      "id": "yosemite_falls",
+      "name": "Yosemite Falls",
+      "description": "One of the tallest waterfalls in North America, with a total drop of 739 meters, visible from many points in Yosemite Valley.",
+      "latitude": 37.7578,
+      "longitude": -119.5967,
       "type": "waterfall"
+    },
+    {
+      "id": "glacier_point",
+      "name": "Glacier Point",
+      "description": "A viewpoint offering panoramic vistas of Yosemite Valley, Half Dome, and Yosemite Falls.",
+      "latitude": 37.7302,
+      "longitude": -119.5735,
+      "type": "viewpoint"
     },
     {
       "id": "mariposa_grove",
       "name": "Mariposa Grove of Giant Sequoias",
-      "description": "Home to over 500 mature giant sequoias, this grove offers trails through ancient trees and a glimpse into the park's rich natural history.",
-      "latitude": 37.5050,
-      "longitude": -119.6500,
-      "type": "sequoia_grove"
-    },
-    {
-      "id": "tunnel_view",
-      "name": "Tunnel View",
-      "description": "A famous viewpoint offering a panoramic view of Yosemite Valley, including El Capitan, Bridalveil Fall, and Half Dome.",
-      "latitude": 37.7250,
-      "longitude": -119.6670,
-      "type": "viewpoint"
+      "description": "Home to over 500 mature giant sequoias, including the Grizzly Giant and the California Tunnel Tree.",
+      "latitude": 37.5030,
+      "longitude": -119.6108,
+      "type": "forest"
     }
+  ],
+  "visitor_centers": [
+    { "name": "Yosemite Valley Visitor Center", "location": "Yosemite Village" },
+    { "name": "Wawona Visitor Center", "location": "Wawona" },
+    { "name": "Tuolumne Meadows Visitor Center", "location": "Tuolumne Meadows" }
   ],
   "routes": [
     {
       "id": "mist_trail",
       "name": "Mist Trail",
-      "description": "A popular trail leading to Vernal and Nevada Falls, offering misty views and a challenging hike.",
-      "distance_km": 6.4,
-      "difficulty": "medium"
-    },
-    {
-      "id": "half_dome_trail",
-      "name": "Half Dome Trail",
-      "description": "A strenuous trail leading to the summit of Half Dome, requiring a permit and offering breathtaking views.",
-      "distance_km": 22.5,
+      "description": "One of Yosemite’s most popular trails, leading past Vernal and Nevada Falls with misty views and granite steps.",
+      "distance_km": 11.0,
       "difficulty": "hard"
-    },
-    {
-      "id": "glacier_point_trail",
-      "name": "Glacier Point Trail",
-      "description": "A scenic trail leading to Glacier Point, offering panoramic views of Yosemite Valley and the High Sierra.",
-      "distance_km": 13.7,
-      "difficulty": "medium"
     },
     {
       "id": "four_mile_trail",
       "name": "Four Mile Trail",
-      "description": "A historic trail leading from Yosemite Valley to Glacier Point, offering stunning views along the way.",
-      "distance_km": 6.4,
-      "difficulty": "medium"
+      "description": "A steep ascent from Yosemite Valley to Glacier Point, offering sweeping views of the valley and waterfalls.",
+      "distance_km": 14.5,
+      "difficulty": "hard"
     },
     {
-      "id": "panorama_trail",
-      "name": "Panorama Trail",
-      "description": "A trail offering panoramic views of Yosemite Valley, including views of Half Dome and the High Sierra.",
-      "distance_km": 13.7,
-      "difficulty": "medium"
+      "id": "mirror_lake_trail",
+      "name": "Mirror Lake Trail",
+      "description": "An easy trail offering reflections of Half Dome and seasonal water levels.",
+      "distance_km": 3.2,
+      "difficulty": "easy"
     }
   ],
-  "tips": [
-    "Secure permits in advance for popular hikes like Half Dome.",
-    "Start early to avoid crowds and enjoy cooler temperatures.",
-    "Carry plenty of water and snacks, especially on longer hikes.",
-    "Be aware of seasonal conditions and trail closures.",
-    "Practice Leave No Trace principles to preserve the park's beauty."
+  "infrastructure": {
+    "campgrounds": 13,
+    "lodges": 5,
+    "total_trails_km": 1300,
+    "main_roads_km": 390
+  },
+  "safety_tips": [
+    "Stay away from cliff edges and wet granite surfaces, which can be extremely slippery.",
+    "Do not feed wildlife; keep all food stored in bear-proof containers.",
+    "Be prepared for sudden weather changes in higher elevations.",
+    "Carry sufficient water and sun protection when hiking.",
+    "In winter, watch for falling ice and snow near waterfalls."
   ],
-  "attribution": "Data provided by the National Park Service (https://www.nps.gov/yose/index.htm)."
+  "source": "National Park Service (https://www.nps.gov/yose/index.htm)",
+  "last_updated": "2025-10-18"
 }
