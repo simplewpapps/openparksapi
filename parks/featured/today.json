@@ -4,7 +4,8 @@
       "id": "yellowstone",
       "name": "Yellowstone National Park",
       "state": "Wyoming, Montana, Idaho",
-      "short_description": "The first national park in the USA, famous for geysers, hot springs, and wildlife."
+      "short_description": "The first national park in the USA, famous for geysers, hot springs, and wildlife.",
+      "image": "https://simplewpapps.github.io/openparksapi/parks/pictures/yellowstone2.jpg"
     }
   ]
 }
