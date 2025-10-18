@@ -5,109 +5,184 @@
   "established": "1890-10-01",
   "designation": "National Park",
   "area_km2": 3081,
-  "highest_point_m": 3977,
-  "lowest_point_m": 648,
-  "visitation_2024": 3872410,
-  "description": "Yosemite National Park, located in California’s Sierra Nevada mountains, is famed for its iconic granite cliffs, towering waterfalls, giant sequoias, and diverse ecosystems. Designated as a World Heritage Site in 1984, Yosemite stands as a symbol of the American conservation movement, largely inspired by the work of John Muir.",
-  "geology": {
-    "summary": "Yosemite’s landscape was shaped primarily by glacial erosion, carving U-shaped valleys, domes, and towering cliffs. The most famous features, such as Half Dome and El Capitan, are composed of granite formed over 100 million years ago.",
-    "notable_features": [
-      "Half Dome",
-      "El Capitan",
-      "Yosemite Valley",
-      "Glacier Point",
-      "Tuolumne Meadows"
-    ]
-  },
-  "wildlife": {
-    "description": "Yosemite supports over 400 species of vertebrates, including mammals, birds, reptiles, amphibians, and fish. Its diverse habitats range from oak woodlands to alpine tundra.",
-    "mammals": ["Black Bear", "Mule Deer", "Bobcat", "Mountain Lion", "Sierra Nevada Red Fox"],
-    "birds": ["Peregrine Falcon", "Steller’s Jay", "Great Gray Owl", "American Dipper"],
-    "fish": ["Rainbow Trout", "California Roach"],
-    "reptiles_amphibians": ["Western Fence Lizard", "Sierra Newt"]
-  },
+  "highest_point_m": 3997,
+  "lowest_point_m": 640,
+  "description": "Yosemite National Park is renowned for its majestic granite cliffs, waterfalls, giant sequoia trees, and diverse ecosystems. Located in California's Sierra Nevada, the park offers a variety of recreational opportunities, including hiking, camping, and sightseeing.",
   "locations": [
     {
-      "id": "el_capitan",
-      "name": "El Capitan",
-      "description": "A 900-meter granite monolith popular among climbers worldwide, dominating the Yosemite Valley skyline.",
-      "latitude": 37.7336,
-      "longitude": -119.6376,
-      "type": "granite_cliff"
-    },
-    {
-      "id": "half_dome",
-      "name": "Half Dome",
-      "description": "An iconic granite dome rising 1,444 meters above the valley floor, accessible via a strenuous trail with cable-assisted ascent.",
-      "latitude": 37.7459,
-      "longitude": -119.5332,
-      "type": "granite_dome"
-    },
-    {
-      "id": "yosemite_falls",
-      "name": "Yosemite Falls",
-      "description": "One of the tallest waterfalls in North America, with a total drop of 739 meters, visible from many points in Yosemite Valley.",
-      "latitude": 37.7578,
-      "longitude": -119.5967,
-      "type": "waterfall"
+      "id": "yosemite_valley",
+      "name": "Yosemite Valley",
+      "description": "The heart of the park, home to iconic landmarks like El Capitan, Half Dome, and Yosemite Falls.",
+      "latitude": 37.8651,
+      "longitude": -119.5383,
+      "type": "valley"
     },
     {
       "id": "glacier_point",
       "name": "Glacier Point",
-      "description": "A viewpoint offering panoramic vistas of Yosemite Valley, Half Dome, and Yosemite Falls.",
-      "latitude": 37.7302,
-      "longitude": -119.5735,
+      "description": "Offers panoramic views of Yosemite Valley, Half Dome, and the High Sierra peaks.",
+      "latitude": 37.7219,
+      "longitude": -119.5383,
       "type": "viewpoint"
     },
     {
       "id": "mariposa_grove",
       "name": "Mariposa Grove of Giant Sequoias",
-      "description": "Home to over 500 mature giant sequoias, including the Grizzly Giant and the California Tunnel Tree.",
-      "latitude": 37.5030,
-      "longitude": -119.6108,
-      "type": "forest"
+      "description": "Home to over 500 mature giant sequoias, including Grizzly Giant and California Tunnel Tree.",
+      "latitude": 37.5086,
+      "longitude": -119.6625,
+      "type": "grove"
+    },
+    {
+      "id": "tuolumne_meadows",
+      "name": "Tuolumne Meadows",
+      "description": "A high-altitude area offering alpine lakes, wildflower meadows, and access to the John Muir Trail.",
+      "latitude": 37.8700,
+      "longitude": -119.3625,
+      "type": "meadow"
+    },
+    {
+      "id": "wawona",
+      "name": "Wawona",
+      "description": "Historic area with access to the Mariposa Grove and the Pioneer Yosemite History Center.",
+      "latitude": 37.5386,
+      "longitude": -119.6531,
+      "type": "village"
+    },
+    {
+      "id": "hetch_hetchy",
+      "name": "Hetch Hetchy",
+      "description": "A reservoir area offering hiking opportunities and views of waterfalls like Tueeulala and Wapama.",
+      "latitude": 37.8311,
+      "longitude": -119.7764,
+      "type": "reservoir"
     }
   ],
-  "visitor_centers": [
-    { "name": "Yosemite Valley Visitor Center", "location": "Yosemite Village" },
-    { "name": "Wawona Visitor Center", "location": "Wawona" },
-    { "name": "Tuolumne Meadows Visitor Center", "location": "Tuolumne Meadows" }
-  ],
-  "routes": [
+  "trails": [
     {
       "id": "mist_trail",
       "name": "Mist Trail",
-      "description": "One of Yosemite’s most popular trails, leading past Vernal and Nevada Falls with misty views and granite steps.",
-      "distance_km": 11.0,
+      "description": "A popular trail leading to Vernal and Nevada Falls, offering misty conditions from waterfall spray.",
+      "distance_km": 6.4,
+      "difficulty": "moderate"
+    },
+    {
+      "id": "half_dome",
+      "name": "Half Dome Trail",
+      "description": "Challenging hike to the summit of Half Dome, requiring a permit and featuring cable-assisted sections.",
+      "distance_km": 22.5,
       "difficulty": "hard"
     },
     {
-      "id": "four_mile_trail",
-      "name": "Four Mile Trail",
-      "description": "A steep ascent from Yosemite Valley to Glacier Point, offering sweeping views of the valley and waterfalls.",
-      "distance_km": 14.5,
+      "id": "yosemite_falls",
+      "name": "Yosemite Falls Trail",
+      "description": "Steep trail leading to the top of North America's tallest waterfall.",
+      "distance_km": 11.6,
       "difficulty": "hard"
     },
     {
-      "id": "mirror_lake_trail",
-      "name": "Mirror Lake Trail",
-      "description": "An easy trail offering reflections of Half Dome and seasonal water levels.",
-      "distance_km": 3.2,
-      "difficulty": "easy"
+      "id": "panorama_trail",
+      "name": "Panorama Trail",
+      "description": "Offers sweeping views of Yosemite Valley, including Glacier Point and Illilouette Basin.",
+      "distance_km": 13.8,
+      "difficulty": "moderate"
+    },
+    {
+      "id": "john_muir_trail",
+      "name": "John Muir Trail",
+      "description": "Long-distance trail running through the Sierra Nevada, passing through Yosemite's Tuolumne Meadows.",
+      "distance_km": 338,
+      "difficulty": "hard"
     }
   ],
-  "infrastructure": {
-    "campgrounds": 13,
-    "lodges": 5,
-    "total_trails_km": 1300,
-    "main_roads_km": 390
-  },
+  "visitor_centers": [
+    {
+      "id": "yosemite_valley_visitor_center",
+      "name": "Yosemite Valley Visitor Center",
+      "description": "Provides information, exhibits, and ranger programs about the park's natural and cultural history.",
+      "location": "Yosemite Valley"
+    },
+    {
+      "id": "wawona_visitor_center",
+      "name": "Wawona Visitor Center",
+      "description": "Offers historical exhibits and information about the southern entrance to the park.",
+      "location": "Wawona"
+    },
+    {
+      "id": "big_oak_flat_visitor_center",
+      "name": "Big Oak Flat Visitor Center",
+      "description": "Provides information and exhibits about the park's northern entrance and surrounding areas.",
+      "location": "Big Oak Flat"
+    }
+  ],
+  "campgrounds": [
+    {
+      "id": "upper_pines",
+      "name": "Upper Pines Campground",
+      "description": "The largest campground in Yosemite Valley, open year-round with reservations required.",
+      "location": "Yosemite Valley"
+    },
+    {
+      "id": "lower_pines",
+      "name": "Lower Pines Campground",
+      "description": "Smaller campground near the Merced River, open seasonally with reservations required.",
+      "location": "Yosemite Valley"
+    },
+    {
+      "id": "north_pines",
+      "name": "North Pines Campground",
+      "description": "Campground located near the Merced River, open seasonally with reservations required.",
+      "location": "Yosemite Valley"
+    },
+    {
+      "id": "tuolumne_meadows",
+      "name": "Tuolumne Meadows Campground",
+      "description": "High-altitude campground offering access to alpine trails and lakes, open seasonally with reservations required.",
+      "location": "Tuolumne Meadows"
+    },
+    {
+      "id": "wawona",
+      "name": "Wawona Campground",
+      "description": "Campground located near the southern entrance, open year-round with reservations required.",
+      "location": "Wawona"
+    },
+    {
+      "id": "crane_flat",
+      "name": "Crane Flat Campground",
+      "description": "Campground located near the Big Oak Flat entrance, open seasonally with reservations required.",
+      "location": "Crane Flat"
+    },
+    {
+      "id": "white_wolf",
+      "name": "White Wolf Campground",
+      "description": "High-elevation campground offering access to alpine trails, open seasonally with reservations required.",
+      "location": "White Wolf"
+    },
+    {
+      "id": "tamarack_flat",
+      "name": "Tamarack Flat Campground",
+      "description": "Remote campground offering a more secluded experience, open seasonally with reservations required.",
+      "location": "Tamarack Flat"
+    },
+    {
+      "id": "bridalveil_creek",
+      "name": "Bridalveil Creek Campground",
+      "description": "Campground located near the southern entrance, open seasonally with reservations required.",
+      "location": "Bridalveil Creek"
+    },
+    {
+      "id": "porcupine_flat",
+      "name": "Porcupine Flat Campground",
+      "description": "Campground located near the North Dome trailhead, open seasonally with reservations required.",
+      "location": "Porcupine Flat"
+    }
+  ],
   "safety_tips": [
-    "Stay away from cliff edges and wet granite surfaces, which can be extremely slippery.",
-    "Do not feed wildlife; keep all food stored in bear-proof containers.",
-    "Be prepared for sudden weather changes in higher elevations.",
-    "Carry sufficient water and sun protection when hiking.",
-    "In winter, watch for falling ice and snow near waterfalls."
+    "Carry and drink plenty of water; dehydration is a major hazard.",
+    "Avoid hiking during midday heat in summer.",
+    "Stay on marked trails to protect fragile ecosystems.",
+    "Store food in bear-proof containers to prevent wildlife encounters.",
+    "Inform others of your hiking plans before heading out."
   ],
   "source": "National Park Service (https://www.nps.gov/yose/index.htm)",
   "last_updated": "2025-10-18"
